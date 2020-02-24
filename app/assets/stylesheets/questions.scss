@@ -1,0 +1,78 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  margin-top: 60px;
+  background-image: linear-gradient(to right, rgba(250, 246, 252, 0.2), rgba(0, 0, 0, 0.43)),url(https://images.unsplash.com/photo-1485841938031-1bf81239b815?ixlib=rb-1.2.1&auto=format&fit=crop&w=314&q=80);
+  // background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+
+  h1 {
+    background-color: #ECE2D0;
+    text-align: center;
+    margin: 0 auto;
+    color: #111D4A;
+    font-family: 'Montserrat';
+    font-weight: lighter;
+    text-shadow: 4px 4px 10px grey;
+    border: 2px solid white;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px grey;
+    width: 500px;
+    padding: 25px;
+
+  }
+
+  p {
+    color: #111D4A;
+    font-family: 'Montserrat';
+    font-weight: 200;
+  }
+}
+
+.container {
+  background-color: #ECE2D0;
+  text-align: center;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 30px;
+  border: 2px solid white;
+  border-radius: 15px;
+  box-shadow: 3px 3px 5px grey;
+  padding: 25px;
+
+  .input {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px grey;
+    text-align: center;
+    color: #729EA1;
+  }
+
+  .button {
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: #C8AD55;
+    box-shadow: 3px 3px 5px grey;
+    width: 205px;
+    height: 35px;
+  }
+
+  .answer {
+    background-color: #ECE2D0;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px grey;
+    text-align: center;
+    color: #729EA1;
+    background-color: white;
+    margin: 0 auto;
+    font-family: 'Montserrat';
+    font-weight: 200;
+    line-height: 20px;
+  }
+
+}
